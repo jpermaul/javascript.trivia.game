@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header id="header">
-        <nav><p>View Highscores</p></nav> 
+    <header id="header" class='container'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">Coding Quiz Game</div>
+            <div>Timer: <span id="timeRemaining"></span></div>
+        </nav> 
     </header>
-    <section id="startScreen">
-        <h1>Game</h1>
-        <p><b>Game description</b></p>
+    <section id="startScreen" class='container-fluid'>
+        <h1>Code Against the Clock</h1>
+        <p><b>Answer as many questions as you can! Wrong answers reduce time by 15 seconds. Time remaining on the clock is your final score.</b></p>
         <button id="startScreenbtn">Start</button>
     </section>
     <section id="quizSection" style = "display:none">

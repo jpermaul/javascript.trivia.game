@@ -1,0 +1,29 @@
+#header {
+
+}
+
+#startScreen {
+    margin:auto;
+    width: 50%;
+    padding:140px 0;
+    text-align: center;
+    border: 5px solid black;
+ 
+}
+
+#quizSection {
+    margin:auto;
+    width: 50%;
+    padding:140px 0;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#scoreSection {
+    margin:auto;
+    width: 50%;
+    padding:140px 0;
+    text-align: center;
+    border: 5px solid black;
+}
+
