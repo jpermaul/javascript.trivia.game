@@ -15,7 +15,7 @@ n/a
 
 ## Usage
 
-Here is a linke to the delployed page:
+Here is a linke to the delployed page: https://jpermaul.github.io/javascript.trivia.game/
 
 ![alt text](assets/images/code%20against%20the%20clock.PNG)
 
